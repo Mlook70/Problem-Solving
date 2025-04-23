@@ -7,19 +7,19 @@
 *Figure 1: High-level system design*
 
 ### Workflow Sequence
-![Process Flow](/public/assets/imgs/Image01.png)
+![Process Flow](/public/assets/imgs/Image02.png)
 *Figure 2: Step-by-step execution flow*
 
 ### Data Flow
-![Component Interaction](/public/assets/imgs/Image02.png)
+![Component Interaction](/public/assets/imgs/Image03.png)
 *Figure 3: Data transfer between modules*
 
 ## Example Output
-![Sample Execution](/public/assets/imgs/Image03.png)
+![Sample Execution](/public/assets/imgs/Image04.png)
 *Figure 4: Console output demonstration*
 
 ## Performance Metrics
-![Benchmark Results](/public/assets/imgs/Image04.png)
+![Benchmark Results](/public/assets/imgs/Image05.png)
 *Figure 5: Runtime performance analysis*
 
 # Cableway Transportation Problem
