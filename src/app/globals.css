@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 17, 24, 39;
+  --background-end-rgb: 31, 41, 55;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  min-height: 100vh;
+}
+
+.dark-gradient {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.light-gradient {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.glass-effect {
+  background: rgba(48, 48, 48, 0.13);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.glass-effect:hover {
+  background: rgba(105, 105, 105, 0.247);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.dark-glass-effect {
+  background: rgba(0, 0, 0, 0.507);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.dark-glass-effect:hover {
+  background: rgba(0, 0, 0, 0.301);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
